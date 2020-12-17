@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualisation</title>
+
+    <style>
+        body {
+          background-image: url('../static/house.jpg')
+    </style>
+
+</head>
+<body>
+    <form method='POST' action = "http://127.0.0.1:5000/back">
+        <button style="height: 45px; width: 200px; font-size: 20px ; text-align: center;
+         line-height: 20px; background-color: blue; color: cornsilk; type= "button" class="btn btn-info"">
+         Back</button>
+        </form>
+ 
+    <h4>1. Skewness for Price</h4>
+
+    <center>
+        <img src="../static/Skewness.png" width="500" height="300">
+        <br><br>
+    </center>
+
+
+    <h4>2. lineplot for YearBuilt</h4>
+    <center>
+        <img src="../static/lineplot.png" width="500" height="300">
+        <br><br>
+    </center>
+
+    <h4>3. Boxplot for Price</h4>
+    <center>
+        <img src="../static/boxplotPrice.png" width="500" height="300">
+        <br><br>
+    </center>
+    
+</body>
+</html>

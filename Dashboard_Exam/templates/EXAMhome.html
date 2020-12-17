@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+          background-image: url('../static/house.jpg')
+    </style>
+
+</head>
+<body>
+    <center>
+        
+        <h1>EDA Real Estate </h1>
+         <img src="../static/homelogopng.png" alt="Logo" style="width:100px;height:100px>
+         <br><br>
+
+        
+        <!--visualisation-->        
+               <form method='POST' action = "http://127.0.0.1:5000/visualisation">
+                <button style="height: 45px; width: 200px; font-size: 20px ; text-align: center;
+                 line-height: 20px; background-color: blue; color: cornsilk; type= "button" class="btn btn-info"">
+                 visualisation</button>
+                </form>
+                <br><br>
+        
+                <!--Dataset-->
+                <form method='POST' action = "http://127.0.0.1:5000/dataset">
+                <button style="height: 45px; width: 200px; font-size: 20px ; text-align: center;
+                 line-height: 20px; background-color: green; color: cornsilk; type= "button" class="btn btn-info"">
+                 Dataset</button>
+                </form>
+                <br><br>
+        
+    </center>
+</body>
+</html>
